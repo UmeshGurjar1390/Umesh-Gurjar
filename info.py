@@ -64,7 +64,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviesz') # Tutorial video link for opening shortlink website 
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Hindi_Tamil_Punjabi_Tabaah_Movie')

@@ -63,7 +63,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/UGMovieZ') # How to o
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviesz') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 

@@ -60,14 +60,14 @@ DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-10022326120
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/UGMovieZ') # How to open tutorial link for verification
 
 # Shortner 
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'dafb9e22d96417b1f1fa2403cf9c0e150884d4fc')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Hindi_Tamil_Punjabi_Tabaah_Movie')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/GMoviesRequestGroup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/GMoviesX')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/UmeshGurjar1390')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('GMOVIESX_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/GMoviesX')
@@ -85,12 +85,12 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Dᴇᴠɪʟ Lᴜᴄɪғᴇʀ')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Umeshgurjar9763') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")

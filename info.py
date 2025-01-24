@@ -61,8 +61,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/UGMovieZ') # How to o
 
 # Shortner 
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0ea896fb66141fc165fd2caa43e1e322c3263db6')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkmonetizer.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0b887dfd860a851b462c171ac155005e9048567a')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UGMoviez') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 

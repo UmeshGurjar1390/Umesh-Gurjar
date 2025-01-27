@@ -68,7 +68,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/GMoviesRequestGroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/GMoviesX')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/GMoviesXA')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/UmeshGurjar1390')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('GMOVIESX_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/GMoviesXA')
 

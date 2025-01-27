@@ -249,7 +249,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b>📂:{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/GMoviesXA">GMᴏᴠɪᴇS Oғғɪᴄɪᴀʟ</a>」</b>"""
+    CAPTION = """<b>📂: {file_name}\n\nJᴏɪɴ ᯓᡣ𐭩「<a href="https://t.me/GMoviesXA">GMᴏᴠɪᴇs Oғғɪᴄɪᴀʟ</a>」</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🎥 Title</b>: <a href={url}>{title}</a>
